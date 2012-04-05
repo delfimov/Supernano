@@ -1,20 +1,21 @@
 <?php
 
-/*
- * supernano framework 
+/**
+ * Supernano framework 
  *
- * Copyright (c) 2012 by Dmitry Elfimov
- * Released under the MIT License.
- * http://www.opensource.org/licenses/mit-license.php
+ * @author    Dmitry Elfimov <elfimov@gmail.com>
+ * @copyright 2012 Dmitry Elfimov
+ * @license   http://www.elfimov.ru/nanobanano/license.txt MIT License
+ * @version   GIT: <git_id>
+ * @link      http://github.com/Groozly/Supernano
  *
- * Date: 2012-02-13
  */
 
 $_d = dirname(__FILE__).'/tpl/';
-$_c = isset($_GET['c']) ? trim($_GET['c'], "/\/\\ \t\n\r\0\x0B") : '';
-$_t = $_d.($_c!='' ? preg_replace('/[^a-zA-Z0-9_-]/', '_', $_c) : 'index').'.php';
+$_c = empty($_GET['c']) ? 'index' : preg_replace('/[^a-z0-9_-]/', '_', strtolower($_GET['c']));
+$_t = $_d.$_c.'.php';
 if (!file_exists($_t)) {
-	header("HTTP/1.0 404 Not Found");
-	$_t = $_d.'error404.tpl.php';
+    header("HTTP/1.0 404 Not Found");
+    $_t = $_d.'error404.tpl.php';
 }
-require($_d.'index.tpl.php');
+require $_d.'index.tpl.php';
