@@ -3,10 +3,8 @@
 /**
  * Supernano framework 
  *
- * @author    Dmitry Elfimov <elfimov@gmail.com>
  * @copyright 2012 Dmitry Elfimov
  * @license   http://www.elfimov.ru/nanobanano/license.txt MIT License
- * @version   GIT: v1.0.0
  * @link      http://github.com/Groozly/Supernano
  *
  */
