@@ -1,7 +1,7 @@
 [![Supernano](https://img.shields.io/badge/Super-nano-ff69f4.svg)](https://github.com/delfimov/Supernano)
 [![Latest Stable Version](https://poser.pugx.org/delfimov/supernano/v/stable)](https://packagist.org/packages/delfimov/supernano)
 [![Build Status](https://travis-ci.org/delfimov/Supernano.svg?branch=master)](https://travis-ci.org/delfimov/Supernano)
-[![StyleCI](https://styleci.io/repos/3430559/shield?style=plastic&branch=master)](https://styleci.io/repos/3430559)
+[![StyleCI](https://styleci.io/repos/3430559/shield?style=flat&branch=master)](https://styleci.io/repos/3430559)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/delfimov/GDImage/blob/master/LICENSE)
 
 # Supernano
