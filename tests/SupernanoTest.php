@@ -24,7 +24,7 @@ class SupernanoTest extends TestCase
      */
     public function testCore(Core $core, $template, $request = [], $get = [])
     {
-        $this->assertInstanceOf(Core::class, $core);
+        $this->assertEquals(true, $core instanceof Core);
         $this->assertEquals($core->template, $template);
         $this->assertTrue($core->request == $request);
         $this->assertTrue($core->get == $get);
