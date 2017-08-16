@@ -1,3 +1,6 @@
+[![StyleCI](https://styleci.io/repos/3430559/shield?branch=master)](https://styleci.io/repos/3430559)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/delfimov/GDImage/blob/master/LICENSE)
+
 # Supernano
 
 Ultralightweight lightspeed fast supersmallsize
@@ -43,4 +46,4 @@ URL-path will be stored in `$this->request` array (`[0 => 'ever']` in this case)
 ### Advanced use
 
 If you want to use this framework with dependencies, 
-use composer autoload and uncomment line #6 in `web/index.php`.  
+use composer autoload and uncomment line #6 in `web/index.php`.
