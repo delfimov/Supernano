@@ -1,0 +1,33 @@
+{
+    "name": "delfimov/supernano",
+    "license": "MIT",
+    "type": "library",
+    "description": "Ultralightweight lightspeed fast supersmallsize unbelievable easy to use best in class PHP framework.",
+    "keywords": ["PHP", "framework", "simple", "basic", "easy to use"],
+    "homepage": "https://github.com/delfimov/gdimage/",
+    "authors": [
+        {
+            "name": "Dmitry Elfimov",
+            "email": "elfimov@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "DElfimov\\Supernano\\": "./src"
+        }
+    },
+    "prefer-stable" : true,
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "3.*",
+        "phpunit/phpunit": "4.*"
+    },
+    "scripts" : {
+        "phpcs": "php ./vendor/bin/phpcs",
+        "test": [
+            "php ./vendor/bin/phpunit"
+        ]
+    }
+}
